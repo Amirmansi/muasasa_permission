@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include muasasa_permission *.css
+recursive-include muasasa_permission *.csv
+recursive-include muasasa_permission *.html
+recursive-include muasasa_permission *.ico
+recursive-include muasasa_permission *.js
+recursive-include muasasa_permission *.json
+recursive-include muasasa_permission *.md
+recursive-include muasasa_permission *.png
+recursive-include muasasa_permission *.py
+recursive-include muasasa_permission *.svg
+recursive-include muasasa_permission *.txt
+recursive-exclude muasasa_permission *.pyc
